@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Stock {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		String projectLocation = System.getProperty("user.dir");
 		
