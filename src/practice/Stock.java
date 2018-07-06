@@ -24,8 +24,8 @@ public class Stock {
 		
 		System.out.println(driver.getTitle());
 		
-		String xpath = "//*[@id=\"scr-res-table\"]/table/tbody/tr[*]";  
-		
+		//String xpath = "//*[@id=\"scr-res-table\"]/table/tbody/tr[*]";  
+		String xpath = "//*[@id=\"scr-res-table\"]/table/tbody//tr";
 				
 		List<WebElement> tableRows = driver.findElements(By.xpath(xpath));
 		
